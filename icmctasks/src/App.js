@@ -4,6 +4,7 @@ import Home from './Home';
 import Register from './Register';
 import Login from './Login';
 import Forgot from './Forgot';
+import Perfil from './Perfil';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
         <Route path= "/forgot" element ={<Forgot/>} />
+        <Route path="/perfil" element={<Perfil />} />
       </Routes>
     </BrowserRouter>
   );
